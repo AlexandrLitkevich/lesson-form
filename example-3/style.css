@@ -1,0 +1,14 @@
+.parent {
+    position: relative;
+}
+
+.parent i {
+    position: absolute;
+    top: 0;
+    right: -10;
+
+}
+
+.parent input {
+    padding-right: 40px;
+}
