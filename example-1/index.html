@@ -10,6 +10,59 @@
 
 <body>
 
+    <div class="container">
+        <div>
+            <label for="name">Ваше имя:</label>
+            <input id="name" class="pl" type="text" placeholder="Александр Александрович">
+        </div>
+
+        <div>
+            <label for="email">Ваш email:</label>
+            <input id="email" class="pl" type="email" placeholder="mail@mail.com">
+        </div>
+        <!-- Number -->
+        <div>
+            <input type="number" name="number" id="number">
+            <label for="">This is number</label>
+        </div>
+        <!-- Checbox -->
+        <div>
+            <label id="checkbox">Ваш checkbox:</label>
+            <input id="checkbox" type="checkbox">
+        </div>
+        <!-- Radio button -->
+        <div class="radio">
+            <input class="radio-input" type="radio" id="radio2" name="radio">
+            <label class="radio-label" for="radio2">
+                Радиокнопка 2
+            </label>
+        </div>
+        <div class="radio">
+            <input class="radio-input" type="radio" id="radio2" name="radio">
+            <label class="radio-label" for="radio2">
+                Радиокнопка 3
+            </label>
+        </div>
+
+        <div>
+            <!-- max="100" step="1" -->
+            <label id="range">Ваш range:</label>
+            <input class="input-range" id="range" name="range" type="range" list="list">
+
+            <datalist id="list">
+                <option value="0"></option>
+                <option value="25"></option>
+                <option value="50"></option>
+                <option value="75"></option>
+                <option value="100"></option>
+            </datalist>
+        </div>
+
+        <textarea>Textaria</textarea>
+
+    </div>
+    </div>
+
 </body>
 
 </html>

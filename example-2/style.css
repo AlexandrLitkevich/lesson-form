@@ -1,0 +1,5 @@
+input:required {
+    border-width: 2px;
+    border-color: #FF8630;
+    background-color: rgb(255 134 48 / 0.1);
+  }
